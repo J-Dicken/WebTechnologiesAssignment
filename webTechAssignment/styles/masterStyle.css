@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: Arial;
+} /* Intially setting to 0 as there was a gap between mainContent div
+	 and top of the page that wasnt affected by altering the divs or bodys attributes */
+
+html {
+	font-size: 16px;
+}
+body {
+	background-color: #DBFEFF;
+}
+
+#mainContent {
+	width: 80%;	
+	min-height: 100vh;
+	margin: auto;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;/* Used to fix footer to bottom*/
+	box-shadow: 0px 0px 10px;
+}
+
+#headerLeft {
+	width: 50%;
+}
+
+#pageTitle {
+	font-size: 4rem;
+	color: #1D4289;
+}
+
+#subTitle {
+	font-size: 1.5rem;
+	padding-left:2px;
+}
+
+#headerRight {
+	float: right;
+	text-align: right;
+	font-size: 1.3rem;
+	width: 50%;
+}
+
+nav {
+	clear: both; /*Clears float from header style*/
+	position: sticky;
+	top: 0; /*So nav bar scrolls and then stays at top */
+	background-color: #1D4289;
+	display: flex;
+	min-height: 3.2rem;
+	height: auto;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1;
+}
+
+.navLink {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 2rem;
+	padding-left: 1.3rem;
+	padding-right: 1.3rem;
+	text-decoration: none; /* To remove underline from nav bar links*/
+}
+
+#current {
+	background-color: #DBFEFF;
+	color: #000000;
+}
+
+.navLink:hover {
+	text-decoration: underline;
+}
+
+#current:hover {
+	text-decoration: none;
+}
+
+#adminLink {
+	visibility: hidden;
+	width: 13rem;
+	position: fixed;
+	right: 0;
+	bottom: 10%;
+	background-color: none;
+	color: #FFFFFF;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+#adminLink span {
+	padding-right: 0.5rem;
+}
+
+#adminLink a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+#linkDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	right: 0;
+	width: 4em;
+	height: 4em;
+	bottom: 10%;
+	background-color: #1D4289;
+	transition: width 0.5s;
+}
+
+#linkDiv img{
+	width: 3em;
+	height: 3em;
+	padding: 0.5rem;
+}
+
+#linkDiv:hover{
+	width: 13rem;
+	background-color: #1D4289;
+}
+
+#linkDiv:hover #adminIcon {
+	visibility: hidden;
+}
+
+#linkDiv:hover #adminLink {
+	transition-delay: 0.3s;
+	opacity: 1;
+	visibility: visible;	
+}
+
+footer {
+	margin-top: auto;
+	width: 100%;
+	height: 3rem;
+	padding-top: 0.5rem;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #1D4289;
+	
+}
+
+@media screen and (max-width: 632px){
+	#mainContent {
+		width: 100% !important;
+		margin:  0;
+	}
+
+	nav {
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+		margin-top: 1rem;
+		margin-botton: 1rem;
+	}
+
+	#headerRight, #headerLeft {
+		float: none;
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+}

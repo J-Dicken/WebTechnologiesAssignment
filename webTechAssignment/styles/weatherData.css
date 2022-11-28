@@ -1,0 +1,152 @@
+/*CSS for task 1 elements*/
+#taskOneWrapper {
+	display: inline-flex;
+	justify-content: space-between;
+	width: 70%;
+	margin:auto;
+	margin-top:2rem;
+}
+
+.dataWrapper {
+	display:flex-block;
+	text-align: center;
+	justify-content: center;
+	background-color: #DBFEFF;
+	border-radius: 20px;
+	width:40%;
+	height:auto;
+	padding: 1rem;
+}
+
+.imgCont {
+	display:block;
+	width: 40%;
+	margin: auto;
+}
+
+.imgCont img {
+	width: 100%;
+	height: auto;
+}
+
+.textCont {
+	width: 60%;
+	margin: auto;
+}
+
+.tempAvg {
+	font-size: 2rem;
+}
+/*End of task 1 CSS */
+
+/*Task 2 CSS*/
+#chartContainer {
+	display: block;
+	text-align: center;
+	width: 70%;
+	margin:auto;
+	margin-top:2rem;
+}
+
+.canvasWrapper {
+	position: relative;
+	display: block;
+	padding-bottom: 3rem;
+	width: 100%;
+}
+
+canvas {
+	cursor: crosshair;
+	z-index: -1;
+}
+
+.chartTitle {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+#chartTypeLab {
+	font-size: 1.3rem;
+}
+
+#chartType {
+	font-size: 1.5rem;
+	height: 2.5rem;
+	width: 10rem;
+	text-align: center;
+	background-color: #1D4289;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+#chartType option {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+#chartTools {
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin: auto;
+	padding-bottom: 2rem;
+}
+
+#chartTools select {
+	font-size: 1rem;
+	text-align: center;
+	cursor:pointer;
+}
+
+
+#chartTools button {
+	color: #FFFFFF;
+	background-color: #1D4289;
+	font-size: 1rem;
+	height: 2rem;	
+	font-size: 1rem;
+	padding: 0rem 0.5rem;
+	border-radius: 20px
+}
+
+#chartTools button:hover {
+	background-color: #DBFEFF;
+	color: #000000;
+	cursor: pointer;
+	box-shadow: 0px 0px 5px #1D4289;
+}
+
+#chartTools button:active {
+	box-shadow:inset 0px 0px 5px #1D4289;
+}
+
+@media screen and (max-width: 700px){
+	#taskOneWrapper{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.dataWrapper {
+		width: 80%;		
+		margin:  auto;
+		margin-bottom: 1rem;
+	}
+
+	#chartContainer {
+		width:  95%;
+	}
+
+	#chartTools {
+		flex-direction: column;
+	}
+
+	#chartTools select {
+		display: block;
+		margin-bottom: 0.5rem;
+	}
+
+	#charTools input {
+		display: block;
+	}
+}

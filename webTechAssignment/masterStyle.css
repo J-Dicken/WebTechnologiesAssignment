@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: Arial;
+} /* Intially setting to 0 as there was a gap between mainContent div
+	 and top of the page that wasnt affected by altering the divs or bodys attributes */
+body {
+	background-color: #DBFEFF;
+}
+
+#mainContent {
+	width: 80%;	
+	min-height: 100vh;
+	margin: auto;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;/* Used to fix footer to bottom*/
+}
+
+#headerLeft {
+	width: 50%;
+}
+
+#pageTitle {
+	font-size: 4rem;
+	color: #1D4289;
+}
+
+#subTitle {
+	font-size: 1.5rem;
+	padding-left:2px;
+}
+
+#headerRight {
+	float: right;
+	text-align: right;
+	font-size: 1.3rem;
+	width: 50%;
+}
+
+nav {
+	clear: both; /*Clears float from header style*/
+	background-color: #1D4289;
+	display: flex;
+	min-height: 3.2rem;
+	height: auto;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navLink {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 2rem;
+	padding-left: 1.3rem;
+	padding-right: 1.3rem;
+	text-decoration: none; /* To remove underline from nav bar links*/
+}
+
+#current {
+	background-color: #DBFEFF;
+	color: #000000;
+}
+
+.navLink:hover {
+	text-decoration: underline;
+}
+
+#current:hover {
+	text-decoration: none;
+}
+
+
+
+footer {
+	margin-top: auto;
+	width: 100%;
+	height: 2.5rem;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #1D4289;
+	
+}
+
+@media (max-width: 632px){
+	html{
+		font-size: 13px;
+	}
+}
+@media (max-width: 632px){
+
+	#mainContent {
+		width: 100%;
+	}
+
+	.pageContent {
+		width: 80%;
+	}
+
+	#headerRight, #headerLeft {
+		float: none;
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+}

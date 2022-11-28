@@ -1,0 +1,101 @@
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+#formWrapper{
+	width: 20%;
+	height: 90%;
+	margin: auto;
+	background-color: #1d4289;
+	box-shadow: 0px 0px 3px;
+	padding: 0.5rem;
+	border-radius: 5px;
+}
+
+#addData{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	color: #ffffff;
+	font-size: 1.2rem;
+}
+
+#addData input{
+	height: 1.3rem;
+	width: 90%;
+	text-align: center;
+	margin: auto;
+	background-color: #DBFEFF;
+	font-size: 1.2rem;
+	padding: 5px;
+}
+
+#addData label{
+	margin-top: 0.5rem;
+}
+
+#addData button{
+	margin: auto;
+	margin-top: 1rem;
+	height: 2rem;
+	width: 90%;
+	font-size: 1.3rem;
+	border-radius: 5px;
+	background-color: #1d4289;
+	color: #ffffff;
+	box-shadow: inset 0px 0px 5px;
+	transition: transform 0.5s;
+}
+
+#addData button:hover{
+	color: #000000;
+	background-color: #DBFEFF;
+	transform: scale(1.05, 1.05);
+}
+
+#addData select{
+	height: 1.9rem;
+	width: 90%;
+	margin: auto;
+	font-size: 1.2rem;
+	background-color: #DBFEFF;
+	text-align: center;
+}
+
+#minTemp, #maxTemp, #avgTemp, #windSpeed, #humid {
+ 	width: 5rem;
+ 	text-align: center;
+ }
+
+ #homeLink {
+ 	display: flex;
+ 	width: 30%;
+ 	position: fixed;
+ 	align-items: center;
+ 	justify-content: center;
+ 	padding: 1rem;
+	right: 0;
+	width: 4em;
+	height: 4em;
+	bottom: 10%;
+	background-color: #1d4289;
+ }
+
+ #homeButton {
+ 	width: 5rem;
+ 	height: 5rem;
+ }
+
+ @media (max-width: 900px){
+ 	#formWrapper {
+ 		width:  90%;
+ 		height: 41rem;
+ 	}
+ }

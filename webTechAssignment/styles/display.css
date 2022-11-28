@@ -1,0 +1,34 @@
+#displayCont {
+	display: inline-flex;
+	width: 70%;
+	margin:auto;
+	margin-top:2rem;
+}
+
+.dataWrapper {
+	display:flex-block;
+	text-align: center;
+	justify-content: center;
+	background-color: #DBFEFF;
+	border-radius: 20px;
+	width:40%;
+	height:auto;
+	margin:  auto;
+	padding: 1rem;
+	color:  #000000;
+}
+
+.textCont {
+	width: 60%;
+	margin: auto;
+}
+
+.tempAvg {
+	font-size: 2rem;
+}
+
+@media screen and (max-width: 700px){
+	.dataWrapper{
+		width: 100%;
+	}
+}

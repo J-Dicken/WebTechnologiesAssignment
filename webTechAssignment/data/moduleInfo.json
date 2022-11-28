@@ -1,0 +1,162 @@
+{
+	"csc10024":
+	{
+		"lecturer": "Bappaditya Mandal",
+		"name": "Programming 1 - Programming Fundamentals",
+		"id": "csc-10024",
+		"description": "This module introduces the fundamental concepts underlying computer programming together with techniques for applying these using a contemporary programming language. The module will have a strong practical element.",
+		"aims": "To introduce computer programming concepts using a generic (non-context specific) computer language and to develop problem-solving skills in the frame of computer programming.",
+		"outcomes":"Show practical experience of the basic concepts of computer programming.Evaluate the suitability of computer language data and control structures to achieve basic problem-solving.Use basic software engineering principles in order to design and implement computer programs"
+	},
+
+	"csc10029":
+	{
+		"lecturer": "Thomas Neligwa",
+		"name": "Fundamentals of Computing",
+		"id": "csc-10029",
+		"description":"This module will provide students with an overview of the core concepts of the discipline, and act as a foundation for other modules covering these topics in more detail. It will enable students to understand the links between individual modules on their course, and to understand them properly in context.",
+		"aims": "To enable students to understand what the fundamental concepts are in computer science, and how these concepts link with each other.",
+		"outcomes":
+			"Identify and explain core concepts of the key technologies and physical infrastructure elements used in computing.Identify and explain how computing interacts with social, organisational and individual user factors.Select and apply appropriate IT applications and information handling techniques"
+	},
+
+	"csc10026":
+	{
+		"lecturer":"Sandra I Woolley",
+		"name":"Computer Animation and Multimedia",
+		"id":"csc-10026",
+		"description":"This module provides students with an introduction to computer graphics, animation and multimedia; and with appropriate programming and media development skills to design and develop animated multimedia. These topics are investigated through lectures, practicals and independent study.The module provides skills relevant to digital media, animation design, 2D and 3D computer graphics, multimedia composition and visual effects that have relevance to careers in media design, digital animation, and games and multimedia development.",
+		"aims":"This module provides students with an introduction to computer graphics, animation and multimedia; and with appropriate programming and media development skills to design and develop animated multimedia.",
+		"outcomes":"Understand the fundamentals of computer graphics, animation and multimedia.Apply appropriate applications and resources to design and create digital media.Create computer graphics and animations"
+	},
+
+	"csc10035":
+	{
+		"lecturer":"Charles R Day",
+		"name":"Natural Computation",
+		"id":"csc-10035",
+		"description":"This module will provide students with an overview of the core concepts of natural computation, which in this treatment will revolve around three main themes: (1) how selected computational approaches have been inspired by nature; (2) the simulation and emulation of some natural phenomena (e.g. predator-prey relationships) using computational techniques; and (3) novel computing using natural phenomena and materials such as DNA.",
+		"aims":"To enable students to take ideas from the natural sciences and use them as inspiration for new computational techniques, and to understand how computational techniques can enhance our understanding of some naturally occurring phenomena.",
+		"outcomes":"Identify and describe selected phenomena from the natural world from the point of view of those phenomena being computational systems.Identify, describe and explain how some computational problem solving approaches have been inspired by natural phenomena and systems.Identify, describe and explain how some naturally occurring phenomena and systems can be emulated using computer models"
+			
+	},
+
+	"csc10040":
+	{
+		"lecturer":"Edward J De Quincey",
+		"name":"Introduction to Interaction Design",
+		"id":"csc-10040",
+		"description":"This module provides students with an introduction to the underlying concepts and principles of user-centred interface and interaction design for web applications. The main focus of the module will be on web based systems and interfaces for a variety of devices. Students will then have the opportunity to apply the knowledge and understanding they gain in these areas to a practical task including a case study.",
+		"aims":"The aim of the module is to provide an introduction to the underlying concepts and principles of user-centered interface and interaction design for web applications on a variety of devices. Students will then have the opportunity to apply the knowledge and understanding they gain in these areas to a case study (coursework assignment).",
+		"outcomes":"Discuss how human strengths and weaknesses inform the design of web applications.Assess how interfaces adhere to Human Computer Interaction (HCI) guidelines and design patterns.Design and create interfaces of web-based applications for a range of devices"
+	},
+
+	"csc10056":
+	{
+		"lecturer":"Charles R Day",
+		"name":"Communication, Confidence and Competence",
+		"id":"csc-10056",
+		"description":"None Available.",
+		"aims":"To enable students to understand the requirements of professional practice and to support them in the development of confidence and competence in a range of academic and professional skills for study and communication.",
+		"outcomes":"Describe the requirements of professional practice in Computer Science.Apply appropriate academic and professional skills in Computer Science.Communicate information tailored to different audiences in a variety of formats"
+	},
+
+	"csc10025":
+	{
+		"lecturer":"James M Borg",
+		"name":"Cybercrime",
+		"id":"csc-10025",
+		"description":"This module will enable students to actively engage in the e-society with an understanding of the risks that they will encounter and the measures that may be taken to counteract them, as well as help students to acquire a firm understanding of the technologies that underpin today's information society.",
+		"aims":"To enable students to actively engage in the e-society with an understanding of the risks that they will encounter and the measures that may be taken to counteract them.",
+		"outcomes":"Identify the major types of cyber-crime and implement counter-measures to protect against them.Describe and discuss the law relating to the major forms of cyber-crime.Identify and describe the technologies and processes that underpin today's information infrastructure"
+	},
+
+	"csc10033":
+	{
+		"lecturer":"Adam Stanton",
+		"name":"Systems and Architecture",
+		"id":"csc-10033",
+		"description":"This module bridges the gap between the fundamental, theoretical organisation of computer systems and high-level concepts such as programming languages. Through the study of key ideas such as the design and organisation of hardware, the role of operating systems and the computational principles of parallelism and caching we come to understand the flexibility, power and limitations of today's information technology. Students who take this module gain a deep insight into the mechanics of everyday computing as well as the constraints we encounter and the design choices we have to make when building our own software systems.",
+		"aims":"This module aims to provide an expanded view of the operation of real computer systems by introducing the core concepts of computer hardware in detail and elucidating the hierarchy of abstraction found in modern technology. The starting point for the module is architecture (e.g. processing, memory, caching, parallelism and I/O), beyond that covered in other introductory modules. This then leads into the role of operating systems (e.g. task scheduling, memory allocation and the organisation of storage) and virtualisation environments (e.g. translation of bytecode to CPU-native code by the Java Virtual Machine) as mediators between hardware and user-defined software. The overall aim is to bridge the gap in description between the fundamental organisation of computer systems and the high-level language constructs and design philosophies that are expanded upon later in the degree programme.",
+		"outcomes":"Describe the organisation of modern computer architectures.Distinguish, in broad terms, between extant hardware architectures and evaluate their suitability for particular problems.Describe, apply, analyse and interpret the results of various benchmark measures of computer performance"
+	},
+
+	"csc20021":
+	{
+		"lecturer":"Goksel Misirli",
+		"name":"Web Technologies",
+		"id":"csc-20021",
+		"description":"This module provides the knowledge and skills necessary to enable students to develop multi-tier web applications and configure the servers on which these applications rely.",
+		"aims":"The module aims to provide an understanding of Internet communication architectures (such as client-server) with reference to standard protocols and to enable the development of multi-tier web applications and the configuration of the servers on which they rely.",
+		"outcomes":"Design and code multi-tier web applications using contemporary languages, systems and tools.Describe the technical, social and security issues involved in developing and maintaining web-based content.Effectively apply techniques for configuring and administrating web servers"
+	},
+
+	"csc20037":
+	{
+		"lecturer":"Charles R Day",
+		"name":"Programming 2 - Data Structures and Algorithms",
+		"id":"csc-20037",
+		"description":"In this module students learn about the important properties of some data structures and algorithms that are of foundational importance to modern computer science and IT. As they do so, there is ample opportunity to develop and practice their general purpose computer programming skills so that in the future they are able to develop their own software solutions to straightforward problems.",
+		"aims":"To develop new programming skills as part of an exploration of several important data structures and algorithms used in Computer Science.",
+		"outcomes":"Outline important features of computer programming using an object oriented programming language.Explain and evaluate the principles and operation of several data structures that are widely used in computer science.Select class, data and control structures for program-based problem-solving"
+	},
+
+	"csc20038":
+	{
+		"lecturer":"Theocharis Kyriacou",
+		"name":"Mobile Application Development",
+		"id":"csc-20038",
+		"description":"Mobile Application Development has become one of the key areas of growth in the technology industry, and an essential employability skill for a computer science graduate. This module provides a practical understanding of the development lifecycle for mobile applications and aims to cover areas such as HCI design principles for mobile devices, mobile application development techniques and technologies, and testing and evaluation of mobile applications. Students will be given the experience of successfully developing an application for a mobile device, such as an Android-based mobile phone.",
+		"aims":"This module provides a practical understanding of the development lifecycle for mobile applications and aims to cover areas such as design principles for mobile devices, mobile application development techniques and technologies, and related commercial and economic issues. Students will be given the experience of successfully developing an application for a mobile device, such as an Android-based mobile phone.",
+		"outcomes":"Discuss the key design and development issues for mobile applications.Identify the requirements for mobile platforms and apply their appropriate strategies for development and deployment.Apply the underlying concepts and principles of mobile application development in a novel situation"
+	},
+
+	"csc20043":
+	{
+		"lecturer":"James M Borg",
+		"name":"Computational and Artificial Intelligence 1",
+		"id":"csc-20043",
+		"description":"This module will provide students with an introduction to the core computational intelligence topics of evolutionary algorithms and neural networks, and some of the similarities and differences between natural and synthetic intelligent systems.",
+		"aims":"The aim of the module is to provide students with an introduction to the core computational intelligence topics of evolutionary algorithms and neural networks, their use in vision systems and robotics, and the similarities and differences between natural and synthetic intelligent systems.",
+		"outcomes":
+			"Apply core concepts of neural networks and evolutionary algorithms.Evaluate similarities and differences between natural and synthetic intelligent systems.Evaluate the use of computational intelligence techniques"
+	},
+
+	"csc20002":{
+		"lecturer":"Thomas Neligwa",
+		"name":"Database Systems",
+		"id":"csc-20002",
+		"description":"This module introduces students to databases and database management systems by providing theoretical knowledge and practical experience in data modelling, database design, implementation and administration.",
+		"aims":"To introduce students to databases and database management systems by providing theoretical knowledge and practical experience in data modelling, database design, implementation and administration.",
+		"outcomes":"Describe and advise upon the benefits and characteristics of database models and database management systems (DBMS) and the importance of data independence, and comment upon the level of data independence offered by a particular DBMS.Determine whether a given relational database is well designed (ie. meets BCNF criteria) and transform a schema into BCNF.Create and query a relational database using command level SQL"
+	},
+
+	"csc20004":{
+		"lecturer":"Marco Ortolani",
+		"name":"Advanced Programmin Practices",
+		"id":"csc-20004",
+		"description":"This module provides a deeper understanding of object-oriented programming, and to the concept of parallelism and concurrent programming, using Java as a working language.",
+		"aims":"To provide a deeper understanding of object-oriented programming, and to the concept of parallelism and concurrent programming.",
+		"outcomes":"Apply object-oriented concepts in Java making use of reference-based data structures and Java Collections.Apply the concepts of parallelism and concurrency, and the fundamental issues that need to be addressed as a result of their application: design correct and efficient programs that use concurrent threads.Apply the concepts and techniques covered above to different applications, such as graphical programming and distributed computing"
+	},
+
+	"csc20041":
+	{
+		"lecturer":"Fiona Ac Polack",
+		"name":"Software Engineering",
+		"id":"csc-20041",
+		"description":"This module provides students with knowledge and practice of typical techniques and processes to undertake team-based development of a software system. The module builds on the Level 4 module requirements, Evaluation and Professionalism, as well as the fundamentals of Java programming. The module uses formal team working and agile development to give experience of software engineering in a self-organising team, typical of modern commercial practice.",
+		"aims":"To provide students with knowledge and practice of typical techniques and processes used in the team-based software engineering. To experience an agile software development. To present a software engineering report that includes software modelling, design, evaluation and teamwork reports.",
+		"outcomes":"Design a software solution that meets its requirements as part of an agile software engineering team.Evaluate software requirements and design as part of an agile software engineering team.Prepare engineering reports and presentations to a specified structure as part of an agile software engineering team"
+	},
+
+	"csc20047":
+	{
+		"lecturer":"Adam Stanton",
+		"name":"Individual Study Topic in Computer Science",
+		"id":"csc-20047",
+		"description":"An opportunity to pursue a personal interest in computer science, learning and applying programming and technical skills that complement and extend those taught within the curriculum, under guidance from staff with experience in the chosen specialism.",
+		"aims":"To provide supported, independent learning and practice of skills (such as expertise in specific programming languages or paradigms, or state-of-the-art computing approaches used in industrial and research organisations) that are not otherwise incorporated in the curriculum.",
+		"outcomes":	"Define and pursue independent acquisition of a body of knowledge relating to a computer science topic.Identify and evaluate appropriate training/learning materials and plan their use effectively.Apply learning and acquired skills to complete a computer science project such as a software application or demonstration of a state-of-the-art computing technique"
+	}
+}

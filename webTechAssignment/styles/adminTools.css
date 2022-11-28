@@ -1,0 +1,53 @@
+#adminToolContainer{
+	display:inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 40%;
+	margin: auto;
+	margin-top: 12%;
+	border-style: groove;
+	padding: 0.5rem;
+}
+
+.toolIcon{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 35%;
+	background-color: #1d4289;
+	border-radius: 10px;
+	padding: 0.5rem;
+	margin: auto;
+	color: #FFFFFF;
+	font-size: 0.8rem;
+	opacity: 1;
+	transition: opacity 2s;
+	transition: transform 1s;
+}
+
+.toolIcon:hover{
+	opacity: 0.8;
+	transform: scale(1.02, 1.02);
+}
+
+.toolIcon a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.toolIcon img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+@media (max-width: 632px){
+	#adminToolContainer {
+		flex-direction: column;
+		width: 90%;
+	}
+
+	.toolIcon{
+		margin-bottom: 1rem;
+	}
+}

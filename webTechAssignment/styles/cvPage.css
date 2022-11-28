@@ -1,0 +1,113 @@
+#cvPageCont {
+	display: block;
+	width:  60%;
+	margin:  auto;
+	margin-top: 1rem;
+}
+
+.sideBySide {
+	display: inline-flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cvField {
+	margin-bottom: 1rem;
+}
+
+#side {
+	min-height: 9rem;/*Explicit height so both borders line up regardless of content*/
+}
+
+fieldset {
+	padding:  0.5rem;
+}
+
+.sideBySide fieldset {
+	width: 45%;
+}
+
+legend {
+	margin-left: 1rem;
+	font-size: 1.3rem;
+}
+
+.cvField {
+	border: groove;
+}
+
+.cvField li {
+	margin-left: 2rem;
+}
+
+#modules {
+	position: relative;
+}
+
+#modLink{
+	position:  absolute;
+	right:  0;
+	bottom: 0;
+	margin-top: 1rem;
+}
+
+#moduleName{
+	font-size: 2rem;
+	margin-bottom: 0;
+}
+
+#modules ul {
+	margin-bottom: 1rem;
+}
+
+h4 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+#modulesTaken {
+	display: block;
+	margin: auto;
+	width:  50%;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	text-align: center;
+	border: groove;
+	border-radius: 10px;
+	color:  #FFFFFF;
+	background-color: #1d4289;
+	cursor:  pointer;
+}
+
+optgroup {
+	color: #000000;
+	background-color: #dbfeff;
+	font-size: 1.2rem;
+}
+
+option {
+	color: #FFFFFF;
+	background-color: #1d4289;
+	font-size: 1rem;
+}
+
+@media (max-width: 632px){
+	#cvPageCont {
+		width:  90%;
+	}
+	.sideBySide {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.cvField, .sideBySide fieldset {
+		width: 100%;
+		margin: auto;
+		margin-bottom: 1rem;
+	}
+
+	#side {
+		height: auto;
+	}
+}
